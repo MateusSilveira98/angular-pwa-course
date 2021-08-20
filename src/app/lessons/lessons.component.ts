@@ -18,7 +18,7 @@ export class LessonsComponent implements OnInit {
 
     sub: PushSubscription;
 
-    readonly VAPID_PUBLIC_KEY = "BLnVk1MBGFBW4UxL44fuoM2xxQ4o9CuxocVzKn9UVmnXZEyPCTEFjI4sALMB8qN5ee67yZ6MeQWjd5iyS8lINAg";
+    readonly VAPID_PUBLIC_KEY = "BLAouOTmhAgBYE4XnNteN07SelQeN8sKS26f9JXTkLkUgxdQI-XcO17xHMLas2uPIjxg5PiLPV2bWyuke1moqVI";
 
     constructor(
         private lessonsService: LessonsService,
